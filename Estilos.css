@@ -1,0 +1,305 @@
+.html {
+    background-color: rgb(40, 143, 91);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    width: 1100px;
+    margin: 0px auto;
+    border: 1px solid black;
+}
+
+header {
+    background: rgb(173, 219, 212);
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 100px;
+    border-bottom: 3px dashed black;
+}
+
+
+
+.form-inline{
+    margin: 10px;
+}
+
+.nav-link{
+    text-align: center;
+}
+
+button.btn.btn-outline-success{
+   width: max-content;
+}
+
+.logo {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 15px;
+    height: 40px;
+}
+
+.impormax {
+    margin: 5px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+.formulario {
+    width: 400px;
+    margin: auto;
+    max-width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    box-shadow: 0 0 20px;
+    position: relative;
+    background-color:  #486b65;
+}
+
+.formularioTitulo {
+    text-align: center;
+    margin-top: 0;
+    color: black;
+
+}
+
+
+.formularioEnviar {
+    display: block;
+  
+    border: 1px solid;
+    font-size: 1em;
+    margin: inherit;
+}
+
+.formularioInput {
+    padding: 20px;
+    margin: 5px;
+    width: -webkit-fill-available;
+}
+
+
+
+
+
+.footer {
+    display: flex;
+
+}
+
+
+
+.formularioconsignas{
+    text-align: center;
+}
+
+
+
+
+
+body {
+    background: url("http://imgfz.com/i/gjzUYeI.jpeg") no-repeat center center fixed;
+    background-size: cover;
+    opacity: 0.85;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'arial';
+}
+
+label {
+    font-family: 'arial';
+    font-weight: bold;
+    color: black;
+}
+
+.form {
+    width: 550px;
+    margin: 0 auto;
+    margin-top: 80px;
+    border: 2px;
+}
+
+input {
+    width: 200px;
+    margin-bottom: 10px;
+    padding: 8px;
+    margin-right: -6px;
+    background-color: #fdfef7;
+    border: #173441 1.8px solid;
+}
+
+
+
+
+.cuadroprestamo {
+    background-color: #486b65;
+  
+}
+
+
+button {
+    background-color: #fdfef7;
+    border: #173441 1.8px solid;
+    width: 100px;
+    font-family: 'arial';
+    font-size: 15px;
+    border-radius: 2px;
+    padding: 10px;
+    margin-left: 77%;
+}
+
+i {
+    background-color: #fdfef7;
+    color: rgb(156, 155, 155);
+    border: #173441 1px solid;
+    padding: 6.8px 8px 9.8px 8px;
+    border-left: white;
+    margin-bottom: 10px;
+}
+
+.tab {
+    border-collapse: collapse;
+    text-align: center;
+    font-family: 'arial';
+    background-color: #fdfef7;
+    border: #173441 2px solid;
+    margin: 0 auto;
+    width: 500px;
+}
+
+thead {
+    border: #173441 2px solid;
+    font-weight: bold;
+}
+
+tr {
+    border: #173441 2px solid;
+}
+
+td {
+    border: #173441 2px solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    background: url("./img/imporblack.jpeg") no-repeat center center fixed;
+    background-size: cover;
+    opacity: 0.85;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'arial';
+}
+
+label {
+    font-family: 'arial';
+    font-weight: bold;
+    margin: 10px;
+    width: min-content;
+    text-align: center;
+}
+
+.form {
+    width: 550px;
+    margin: 0 auto;
+    margin-top: 80px;
+    border: 2px;
+}
+
+input {
+    width: 200px;
+    margin-bottom: 10px;
+    padding: 8px;
+    margin-right: -6px;
+    background-color: #ffffff;
+    border: #173441 1.8px solid;
+}
+
+fieldset {
+    border: #173441 2px solid;
+    border-radius: 10px;
+    background-color: #d1ddbe;
+}
+
+button {
+    background-color: #fdfef7;
+    border: #173441 1.8px solid;
+    width: 100px;
+    font-family: 'arial';
+    font-size: 15px;
+    border-radius: 2px;
+    padding: 10px;
+    margin-left: 77%;
+}
+
+i {
+    background-color: #fdfef7;
+    color: rgb(156, 155, 155);
+    border: #173441 1px solid;
+    padding: 6.8px 8px 9.8px 8px;
+    border-left: white;
+    margin-bottom: 10px;
+}
+
+.tab {
+    border-collapse: collapse;
+    text-align: center;
+    font-family: 'arial';
+    background-color: #fdfef7;
+    border: #173441 2px solid;
+    margin: 0 auto;
+    width: 500px;
+}
+
+thead {
+    border: #173441 2px solid;
+    font-weight: bold;
+}
+
+tr {
+    border: #173441 2px solid;
+}
+
+td {
+    border: #173441 2px solid;
+}
+
+.prestamo {
+    text-align: center;
+}
+
+.botoncalcular {
+    margin: 5px;
+    text-align: center;
+}
