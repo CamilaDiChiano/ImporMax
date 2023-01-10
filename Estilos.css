@@ -21,17 +21,20 @@ header {
 
 
 
-.form-inline{
+.form-inline {
     margin: 10px;
 }
 
-.nav-link{
+a.nav-link {
     text-align: center;
+    color: #173441;
 }
 
-button.btn.btn-outline-success{
-   width: max-content;
+button.btn.btn-outline-success {
+    width: max-content;
+
 }
+
 
 .logo {
     background-color: rgb(255, 255, 255);
@@ -57,7 +60,7 @@ button.btn.btn-outline-success{
     padding: 10px;
     box-shadow: 0 0 20px;
     position: relative;
-    background-color:  #486b65;
+    background-color: #486b65;
 }
 
 .formularioTitulo {
@@ -70,7 +73,7 @@ button.btn.btn-outline-success{
 
 .formularioEnviar {
     display: block;
-  
+
     border: 1px solid;
     font-size: 1em;
     margin: inherit;
@@ -93,7 +96,7 @@ button.btn.btn-outline-success{
 
 
 
-.formularioconsignas{
+.formularioconsignas {
     text-align: center;
 }
 
@@ -139,7 +142,7 @@ input {
 
 .cuadroprestamo {
     background-color: #486b65;
-  
+
 }
 
 
@@ -168,8 +171,7 @@ i {
     text-align: center;
     font-family: 'arial';
     background-color: #fdfef7;
-    border: #173441 2px solid;
-    margin: 0 auto;
+    margin: 20px;
     width: 500px;
 }
 
