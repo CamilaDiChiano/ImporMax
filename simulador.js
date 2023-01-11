@@ -1,3 +1,5 @@
+// simulador
+
 
 function gen_table(){
     document.getElementById("tab").innerHTML="";
@@ -24,3 +26,32 @@ function gen_table(){
         alert("Falta ingresar un Número");
     }
 }
+
+
+
+
+
+
+// contacto
+
+
+const btn = document.getElementById('button');
+
+document.getElementById('form')
+ .addEventListener('submit', function(event) {
+   event.preventDefault();
+
+   btn.value = 'Sending...';
+
+   const serviceID = 'default_service';
+   const templateID = 'template_r4tltyu';
+
+   emailjs.sendForm(serviceID, templateID, this)
+    .then(() => {
+      btn.value = 'Send Email';
+      alert('Sent!');
+    }, (err) => {
+      btn.value = 'Send Email';
+      alert(JSON.stringify(err));
+    });
+});
