@@ -20,6 +20,12 @@ header {
 
 .form-inline {
     margin: 10px;
+    width: 400px;
+    margin: auto;
+    max-width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    position: relative;
 }
 
 a.nav-link {
@@ -57,7 +63,7 @@ button.btn.btn-outline-success {
     padding: 10px;
     box-shadow: 0 0 20px;
     position: relative;
-    background-color: #758d7ba2;
+    background-color: #486b65;
 }
 
 .formularioTitulo {
@@ -86,17 +92,39 @@ button.btn.btn-outline-success {
 
 
 
-.footer {
-    display: flex;
-
-}
-
-
 
 .formularioconsignas {
     text-align: center;
 }
 
+
+@media screen and (max-width: 425px){
+
+    body{
+        background-color: #173441;
+    }
+    
+
+    .form-inline{
+     width: max-content;
+    }
+
+.form{
+    margin: auto;
+    max-width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    position: relative;
+}
+
+.tab{
+    margin: auto;
+    max-width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    position: relative;
+}
+}
 
 
 
@@ -105,11 +133,9 @@ body {
     background: url("http://imgfz.com/i/gjzUYeI.jpeg") no-repeat center center fixed;
     background-size: cover;
     opacity: 0.85;
-   
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
+    
 }
+
 
 h1 {
     text-align: center;
@@ -194,19 +220,10 @@ td {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+nav.navbar.navbar-light.bg-light {
+    background-color: #173441;
+    text-align: center;
+}
 
 
 
